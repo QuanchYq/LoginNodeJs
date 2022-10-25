@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    width:100%;
+}
+.page{
+    background-color: rgb(237, 234, 234);
+    height: 723px;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #fff;
+    align-items: center;
+    padding: 77px 55px 33px 55px;
+    width: 410px;
+    height: 540px;
+    outline: 2px;
+}
+.password{
+    margin-bottom: 15px;
+}
+form {
+    width: 280px;
+    height: 540px;
+    display: block;
+}
+.welcome-page{
+    display: flex;
+    justify-content: center;
+}
+.welcome {
+    font-family: 'Poppins';
+    font-size: 25px;
+    width: 80%;
+}
+.name {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center; 
+}
+.email-input{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+}
+.password {
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 100%;
+    border-width: 0px 0px 3px 0px;
+    outline-color: #fff;
+    transition: border-color 0.5s;
+}
+input:focus{
+    width: 100%;
+    border-width: 0px 0px 3px 0px;
+    border-color: rgb(31, 207, 255)
+}
+button{
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 30px;
+    height: 45px;
+    border: none;
+    font-size: 25px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: medium;
+    background: linear-gradient(90deg, rgba(129,122,241,1) 0%, rgba(110,136,243,1) 4%, rgba(0,212,255,1) 100%);
+}
+form button{
+    transition: background 0.5ms;
+}
+form button:hover{
+    background: linear-gradient(90deg, rgba(129,122,241,1) 0%, rgba(67,103,247,1) 0%, rgba(0,212,255,1) 100%);
+}
+::placeholder{
+    font-family: 'Poppins';
+    font-size: small;
+}
+a{
+    margin-right: 3px;
+    width: auto;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+}
+.register {
+    display: flex; 
+    justify-content: center;  
+}
